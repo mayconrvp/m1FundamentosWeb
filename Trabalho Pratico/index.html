@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Simulador de Juros</title>
+  </head>
+  <body>
+    <div id="content">
+      <div id="simulaInput">
+        <h2>Simulador de Financiamento</h2>
+        <label>Valor:</label>
+        <input id="valor" name="valor" type="number" value="200000" />
+        <label>Prazo (anos):</label>
+        <input id="prazo" name="prazo" type="number" value="20" />
+        <label>Juros ao ano:</label>
+        <input id="jurosaa" name="jurosaa" type="number" value="0.08" />
+        <button id="btnSimular">Simular</button>
+      </div>
+
+      <div>
+        <div id="resultado"></div>
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

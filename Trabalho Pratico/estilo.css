@@ -1,0 +1,28 @@
+table {
+  padding-top: 40px;
+  /*   */
+  width: 60%;
+  display: table;
+}
+table th {
+  background-color: rgb(16, 180, 112);
+  color: #fff;
+}
+table td {
+  background-color: #f0f0f0;
+  color: #0c0c0c;
+  margin-top: 50px;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 50px 50px;
+  background-color: rgb(172, 169, 226);
+}
+
+#content {
+  background-color: rgb(245, 255, 252);
+  display: block;
+  padding: 20px 50px 20px 50px;
+}
